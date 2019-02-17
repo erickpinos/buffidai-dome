@@ -43,15 +43,15 @@ var trucks = [
 ["Wheels on Fire","0x390556f6665bb13011343c24944b5cbc8728543f"],
 ["Rollup Sushi","0x80db35b6c673d1e72e3912e279c90f07030bb434"],
 ["Roadrunner","0x6804c8fe37ec2e0eb00d46fa7d694214a037a581"],
-["Mac N Noodles",""],
+["Mac N Noodles","0xc8478286ba641f3354f5b271aa481d25b78fdacb"],
 ["Chibby Wibbits","0x178e45fba05722cf9f80be1d775d1df86c6f571e"],
-["Crock Spot",""],
-["Lucky Mary's Baking",""],
+["Crock Spot","0x70bc16a6ac50e734f8d41024ce3f69bbff7c1cea"],
+["Lucky Mary's Baking","0xadb098070e0d96471a117db7827de0eed0e198c4"],
 ["Pavy's","0x28b55fc6abb109cfee947d38d0f1e139a7ba98ae"]
 ];
 
 for (var i in trucks) {
-	console.log(i);
+//	console.log(i);
 	test(trucks[i][0],trucks[i][1]);
 };
 
